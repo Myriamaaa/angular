@@ -1,0 +1,28 @@
+<div class="container">
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand">Tout les produits</a>
+      <form class="d-flex" #f="ngForm">
+        <input
+          class="form-control me-2"
+          type="search"
+          name="search"
+          placeholder="Search"
+          aria-label="Search"
+          [(ngModel)]="search"
+        />
+
+        <button class="btn btn-success" (click)="searchProduct()">
+          Search
+        </button>
+      </form>
+    </div>
+  </nav>
+  <br />
+  <app-product
+    *ngFor="let p of productsList"
+    [product]="p"
+    (deleteProduct)="deleteP($event)"
+  >
+  </app-product>
+</div>

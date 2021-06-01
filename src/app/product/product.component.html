@@ -1,0 +1,20 @@
+<div class="card">
+  <h5 class="card-header">{{ product.name }}</h5>
+  <div class="card-body">
+    <h5 class="card-title">{{ product.type }}</h5>
+    <h5 class="card-title">{{ product.price }} Dt</h5>
+    <p class="card-text">
+      {{ product.description }}
+    </p>
+    <button
+      type="button"
+      class="btn btn-secondary"
+      (click)="onDelete()"
+      style="margin-right: 10px"
+    >
+      Supprimer
+    </button>
+    <a routerLink="{{ product.id }}"> Modifier </a>
+  </div>
+</div>
+<br />

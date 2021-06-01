@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "id": 0.48140166934562245,
+      "name": "LIERAC HYDRAGENIST SERUM HYDRATANT OXYGENANT REPULPANT, 30ML",
+      "type": "Sérum",
+      "price": 166.592,
+      "description": "Le sérum hydratant de la gamme Hydragenist de Liera contribue à une hydratation intense de la peau. Il permet de repulper et de lisser les premières rides ou ridules. En le combinant à la crème ou au gel crème de la gamme l'efficacité est démultipliée.\n\nContenance: 30ml"
+    },
+    {
+      "id": 0.7332475665136511,
+      "name": "Avène Crème Minérale Haute Protection SPF50 - 50ml",
+      "type": "Solaire",
+      "price": 46.344,
+      "description": "Onctueuse et facile à appliquer, la Crème SPF 50 haute protection permet d'obtenir une protection très efficace avec une haute tolérance."
+    },
+    {
+      "id": 0.23407974670721088,
+      "name": "SVR Xerial 50 creme pieds anti-callosites, 50ml",
+      "type": "Crème pieds",
+      "price": 32.823,
+      "description": "Crème pieds anti-callosités et durillons rebelles.\nGrâce à la Technologie Urée Pure (brevet déposé) concentrée à 50%, Protéase, Acide Salicylique et Acides Aminés, Xérial ® 50 réduit efficacement les callosités et les durillons en 7 jours*.\nFormulé pour une tolérance maximale."
+    }
+  ]
+}
